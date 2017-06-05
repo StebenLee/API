@@ -1,5 +1,5 @@
 var mongoose = require('mongoose'),
-    Task = monoose.model('Tasks');
+    Task = mongoose.model('Tasks');
 
 exports.list_all_tasks = function(req, res) {
     Task.find({}, function(err, task) {

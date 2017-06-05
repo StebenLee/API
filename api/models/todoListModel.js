@@ -6,8 +6,8 @@ var TaskSchema = new Schema({
         type: String,
         Required: 'Kindly enter the name of the task'
     },
-    Created_data: {
-        type: Data,
+    Created_date: {
+        type: Date,
         default: Date.now
     },
     status: {
