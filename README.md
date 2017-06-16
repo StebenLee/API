@@ -27,7 +27,7 @@ RESTful applications use HTTP requests to perform four operations termed as CRUD
   
 ### Tools  
   
-Node.js mongodb
+Node.js mongodb express bodyparser
 
 Two routes localhost:3000/tasks (get & post) and localhost:3000/tasks/:taskId (get & put & delete)
 
